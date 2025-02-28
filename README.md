@@ -146,4 +146,5 @@ Feedstock Maintainers
 * [@3coins](https://github.com/3coins/)
 * [@dlqqq](https://github.com/dlqqq/)
 * [@efriis](https://github.com/efriis/)
+* [@michaelnchin](https://github.com/michaelnchin/)
 
