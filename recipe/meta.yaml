@@ -1,5 +1,5 @@
 {% set name = "langchain-aws" %}
-{% set version = "0.2.35" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langchain_aws-{{ version }}.tar.gz
-  sha256: 45793a34fe45d365f4292cc768db74669ca24601d2c5da1ac6f44403750d70af
+  sha256: 597342bda0e7384e13590e9ab69c872ddcfbbf07d81ac6bb0f8a67970252212e
 
 build:
   noarch: python
