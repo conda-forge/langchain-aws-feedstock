@@ -1,5 +1,5 @@
 {% set name = "langchain-aws" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langchain_aws-{{ version }}.tar.gz
-  sha256: 7835213de92a6d79af3778ec37d622812519e632ad6be8226d8f1f4d95a24cba
+  sha256: d208c218c930fcd48cab877dc97670a1c938e4fe3a0287ea3e5409f77a8b744a
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<4.0
-    - langchain-core >=1.1.0,<1.2.5
+    - langchain-core >=1.2.5
     - boto3 >=1.40.19
     - numpy >=1.0.0,<3.0.0
     - pydantic >=2.10.6,<3
