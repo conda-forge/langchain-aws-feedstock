@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<4.0
-    - langchain-core >=1.1.0,<1.2.5
+    - langchain-core >=1.2.5
     - boto3 >=1.40.19
     - numpy >=1.0.0,<3.0.0
     - pydantic >=2.10.6,<3
