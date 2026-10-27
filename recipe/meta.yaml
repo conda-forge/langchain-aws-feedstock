@@ -1,5 +1,5 @@
 {% set name = "langchain-aws" %}
-{% set version = "1.9.0" %}
+{% set version = "1.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/langchain_aws-{{ version }}.tar.gz
-  sha256: 8823a08d2956b0d54d766d3c3ce7b5b2f185fdc16436be97c2729960d1211d9c
+  sha256: e594476409f7fd41ae0989179866758338f7e5a9abbee93c0b2cff528aee2bb8
 
 build:
   noarch: python
